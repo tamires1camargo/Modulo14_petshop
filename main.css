@@ -1,0 +1,85 @@
+body {
+    font-family: 'Luckiest Guy', cursive;
+    font-family: 'Ubuntu', sans-serif;
+}
+
+.navbar {
+    background-color:darkcyan;
+}
+
+#cabecalho .nav .nav-link.active {
+    background-color: #fff;
+    color:darkcyan;
+}
+
+#cabecalho .nav .nav-link,
+.navbar-brand,
+.navbar-brand:hover,
+.nav-servicos .nav-link.active:hover {
+    color: #fff;
+}
+
+.navbar-toggler {
+    background-color: rgb(203, 255, 255);
+}
+
+.section-title {
+    font-family: 'Pacifico', cursive;
+    font-weight: bold;
+}
+
+#sobre-o-petshop, #servicos {
+    background-color: rgb(203, 255, 255);
+}
+
+.text-colored {
+    color: darkcyan;
+}
+
+.nav-servicos .nav-link.active,
+#fale-conosco button {
+    background-color:darkcyan;
+    color: #fff;
+}
+
+.nav-servicos .nav-link:hover {
+    color: darkcyan;
+}
+
+.social-links li {
+    list-style: none;
+    display: inline;
+}
+
+.social-links a {
+    text-decoration: none;
+}
+
+.carousel-item img,
+.carousel-item.active img {
+    height: 700px;
+    width: 1700px;
+}
+
+#racoes-e-petiscos img {
+    height: 280px;
+    width: 300px;
+}
+
+
+@media (max-width: 767px) {
+    #racoes-e-petiscos img {
+        height: auto;
+        width: auto;
+    }
+}
+
+
+@media (max-width: 640px) {
+    .carousel-item img,
+    .carousel-item.active img {
+        height: 320px;
+        width: 480px;
+    }
+}
+

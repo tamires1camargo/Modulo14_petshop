@@ -1,0 +1,455 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pet Shop</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.3/font/bootstrap-icons.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Luckiest+Guy&family=Ubuntu:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./main.css">
+
+</head>
+<body>
+    <header class="navbar navbar-expand-lg sticky-top p-4" id="cabecalho">
+        <div class="container">
+            <h1 class="navbar-brand m-0 section-title">Pet Shop & Clinica <span>Meu Pet Mimado</span></h1>
+            <button class="navbar-toggler" data-bs-toggle="collapse" data-bs-target="#menu-navegacao">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <nav class="navbar-collapse collapse justify-content-end" id="menu-navegacao">
+                <ul class="nav nav-pills d-block d-md-flex">
+                    <li class="nav-item fw-bold">
+                        <a href="#sobre-o-petshop" class="nav-link active">
+                            <i class="bi bi-house-door me-1"></i>
+                            Sobre o Pet Shop
+                        </a>
+                    </li>
+                    <li class="nav-item fw-bold">
+                        <a href="#produtos" class="nav-link">
+                            <i class="bi bi-dribbble me-1"></i>
+                            Produtos
+                        </a>
+                    </li>
+                    <li class="nav-item fw-bold">
+                        <a href="#servicos" class="nav-link">
+                            <i class="bi bi-clipboard2-heart me-1"></i>
+                            Serviços
+                        </a>
+                    </li>
+                    <li class="nav-item fw-bold">
+                        <a href="#fale-conosco" class="nav-link">
+                            <i class="bi bi-chat-text me-1"></i>
+                            Fale conosco
+                        </a>
+                    </li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+    <div data-bs-spy="scroll" data-bs-target="#cabecalho" data-bs-smooth-scroll="true"></div>
+
+    <section id="sobre-o-petshop">
+        <div class="carousel slide" data-bs-ride="carousel" id="carousel">
+            <div class="carousel-inner">
+                <div class="carousel-item active" data-bs-interval="2000">
+                    <img src="./images/slides/Mbrincando.jpg" alt="Foto cao feliz">
+                </div>
+                <div class="carousel-item" data-bs-interval="2000">
+                    <img src="./images/slides/loja.jpg" alt="Interior da loja">
+                </div>
+                <div class="carousel-item" data-bs-interval="2000">
+                    <img src="./images/slides/Mdeitada.jpg" alt="cao olhando">
+                </div>
+                <div class="carousel-item" data-bs-interval="2000">
+                    <img src="./images/slides/clinica.jpg" alt="clinica">
+                </div>
+                <div class="carousel-item" data-bs-interval="2000">
+                    <img src="./images/slides/Mcolagem.jpg" alt="colagem">
+                </div>
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#carousel" data-bs-slide="prev">
+                <span class="carousel-control-prev-icon"></span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carousel" data-bs-slide="next">
+                <span class="carousel-control-next-icon"></span>
+            </button>
+            <div class="carousel-indicators">
+                <button type="button" data-bs-target="#carousel" class="active" data-bs-slide-to="0"></button>
+                <button type="button" data-bs-target="#carousel" data-bs-slide-to="1"></button>
+                <button type="button" data-bs-target="#carousel" data-bs-slide-to="2"></button>
+                <button type="button" data-bs-target="#carousel" data-bs-slide-to="3"></button>
+                <button type="button" data-bs-target="#carousel" data-bs-slide-to="4"></button>
+            </div>
+
+        </div>
+        
+        <div class="pt-5 pb-5">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-5">
+                        <img src="./images/Sobre.jpg" id="meg" class="d-block w-100 rounded" alt="Foto de cachorro">
+                    </div>
+                    <div class="col-md-7 mt-3 mt-md-0">
+                        <h2 class="section-title">Sobre <span class="text-colored">o Meu Pet Mimado</span></h2>
+                        <p>
+                            O Pet Shop "Meu Pet Mimado" é um centro completo de cuidados de animais de estimação, fundada em 2016, o espaço comporta o conceito conveniência com alta qualidade.                        </p>
+                        <p>
+                            Aqui você poderá encontrar um modelo exclusivo de atendimento integrado envolvendo: Hospital veterinário, Centro estético e uma completa loja de Petshop com as mais variadas opções para seu bichinho.
+                        </p>
+                        <p>
+                            Na Meu Pet Mimado você encontra uma equipe treinada e sob constante supervisão dos nossos veterinários. A seguir alguns dos nossos produtos e serviços mais procurados:
+                        </p>
+                        <ul>
+                            <li>
+                                Rações para filhotes e adultos
+                            </li>
+                            <li>
+                                Caixas pet de transporte
+                            </li>
+                            <li>
+                                Banhos & Tosa
+                            </li>
+                            <li>
+                                Pet <span class="fst-italic">Delivery</span>
+                            </li>
+                            <li>
+                                Brinquedos
+                            </li>
+                            <li>
+                                Adestramento
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    
+
+    <section id="produtos" class="pt-5 pb-5">
+        <div class="container">
+            <div class="row">
+                <h2 class="section-title text-center mb-5">
+                    Nossos Produtos
+                </h2>
+            </div>
+            <div class="row">
+                <aside class="col-md-2">
+                    <nav class="nav nav-pills flex-column nav-servicos">
+                        <button type="button" data-bs-toggle="tab" data-bs-target="#racoes-e-petiscos" class="fw-bold text-start nav-link text-colored active">Rações e Petiscos</button>
+                        <button type="button" data-bs-toggle="tab" data-bs-target="#brinquedos" class="fw-bold text-start nav-link text-colored">Brinquedos</button>
+                        <button type="button" data-bs-toggle="tab" data-bs-target="#acessorios" class="fw-bold text-start nav-link text-colored">Acessórios</button>
+                        <button type="button" data-bs-toggle="tab" data-bs-target="#casas" class="fw-bold text-start nav-link text-colored">Casinhas</button>
+                    </nav>
+                </aside>
+                <div class="col-md-10">
+                    <div class="tab-content">
+                        <div class="tab-pane active" id="racoes-e-petiscos">
+                            <div class="row">
+                                <div class="col-md-3">
+                                    <img class="d-block w-100" src="./images/produtos/racoes/racao1.jpg" alt="Special Dog"/>
+                                    <h5 class="text-colored fw-bold mt-2">Ração Special Dog</h5>
+                                    <p>
+                                        Ração para cães adultos - contém 10kg.
+                                    </p>
+                                </div>
+                                <div class="col-md-3">
+                                    <img class="d-block w-100" src="./images/produtos/racoes/racao2.jpg" alt="Pedigree"/>
+                                    <h5 class="text-colored fw-bold mt-2">Ração Pedigree</h5>
+                                    <p>
+                                        Ração para cães pequenos - contém 10kg.
+                                    </p>
+                                </div>
+                                <div class="col-md-3">
+                                    <img class="d-block w-100" src="./images/produtos/racoes/racao3.jpg" alt="Whiskas"/>
+                                    <h5 class="text-colored fw-bold mt-2">Ração Whiskas</h5>
+                                    <p>
+                                        Ração para gatos - contém 10kg.
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="tab-pane" id="brinquedos">
+                            <div class="row">
+                                <div class="col-md-3">
+                                    <img class="d-block w-100" src="./images/produtos/brinquedos/bolinhas.jpg" alt="Bolinhas"/>
+                                    <h5 class="text-colored fw-bold mt-2">Bolinhas diversas cores</h5>
+                                    <p>
+                                        Bola pequena de borracha.
+                                    </p>
+                                </div>
+                                <div class="col-md-3">
+                                    <img class="d-block w-100" src="./images/produtos/brinquedos/corda.jpg" alt="Corda"/>
+                                    <h5 class="text-colored fw-bold mt-2">Corda</h5>
+                                    <p>
+                                        Corda com nos colorida.
+                                    </p>
+                                </div>
+                                <div class="col-md-3">
+                                    <img class="d-block w-100" src="./images/produtos/brinquedos/frango.jpg" alt="Frango"/>
+                                    <h5 class="text-colored fw-bold mt-2">Frango</h5>
+                                    <p>
+                                        Frango de borracha.
+                                    </p>
+                                </div>
+                                <div class="col-md-3">
+                                    <img class="d-block w-100" src="./images/produtos/brinquedos/hamburger.jpg" alt="Hamburguer"/>
+                                    <h5 class="text-colored fw-bold mt-2">Hamburguer</h5>
+                                    <p>
+                                        Lanche hamburguer de borracha.
+                                    </p>
+                                </div>
+                                <div class="col-md-3">
+                                    <img class="d-block w-100" src="./images/produtos/brinquedos/hipo.jpg" alt="Hipopotamo"/>
+                                    <h5 class="text-colored fw-bold mt-2">Corda</h5>
+                                    <p>
+                                        Hipopotamo de borracha colorido.
+                                    </p>
+                                </div>
+                                <div class="col-md-3">
+                                    <img class="d-block w-100" src="./images/produtos/brinquedos/macaco.jpg" alt="Macaco"/>
+                                    <h5 class="text-colored fw-bold mt-2">Macaco</h5>
+                                    <p>
+                                        Macaco de pelúcia grande.
+                                    </p>
+                                </div>
+                                <div class="col-md-3">
+                                    <img class="d-block w-100" src="./images/produtos/brinquedos/ossolaranja.jpg" alt="Osso"/>
+                                    <h5 class="text-colored fw-bold mt-2">Osso laranja</h5>
+                                    <p>
+                                        Osso laranja de borracha.
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="tab-pane" id="acessorios">
+                            <div class="row">
+                                <div class="col-md-3">
+                                    <img class="d-block w-100" src="./images/produtos/acessorios/caixagato.jpg" alt="Caixa para gato"/>
+                                    <h5 class="text-colored fw-bold mt-2">Caixa para transporte gato</h5>
+                                    <p>
+                                        Caixa de transporte para gato - tamanho média.
+                                    </p>
+                                </div>
+                                <div class="col-md-3">
+                                    <img class="d-block w-100" src="./images/produtos/acessorios/cama.jpg" alt="Cama"/>
+                                    <h5 class="text-colored fw-bold mt-2">Cama acolchoada</h5>
+                                    <p>
+                                        Cama para pet acolchoada - tamanho grande.
+                                    </p>
+                                </div>
+                                <div class="col-md-3">
+                                    <img class="d-block w-100" src="./images/produtos/acessorios/coleiracao.jpg" alt="Coleira"/>
+                                    <h5 class="text-colored fw-bold mt-2">Coleira</h5>
+                                    <p>
+                                        Coleira com pingente de identificação.
+                                    </p>
+                                </div>
+                                <div class="col-md-3">
+                                    <img class="d-block w-100" src="./images/produtos/acessorios/tigela.jpg" alt="Tigela"/>
+                                    <h5 class="text-colored fw-bold mt-2">Tigela de Inox</h5>
+                                    <p>
+                                        Tigela de inox - diversos tamanhos.
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="tab-pane" id="casas">
+                            <div class="row">
+                                <div class="col-md-3">
+                                    <img class="d-block w-100" src="./images/produtos/casinhas/casamadeira.jpg" alt="Casa de madeira"/>
+                                    <h5 class="text-colored fw-bold mt-2">Casa de Madeira</h5>
+                                    <p>
+                                        Casa de madeira tradicional - tamanho grande.
+                                    </p>
+                                </div>
+                                <div class="col-md-3">
+                                    <img class="d-block w-100" src="./images/produtos/casinhas/casinhas.jpg" alt="Casinhas"/>
+                                    <h5 class="text-colored fw-bold mt-2">Casas de plástico</h5>
+                                    <p>
+                                        Casinhas de plástico desmontáveis - diversas cores.
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    
+    <section id="servicos" class="pt-5 pb-5">
+        <div class="container">
+            <div class="row">
+                <h2 class="section-title text-center">Clinica Veterinária 24hrs</h2>
+            </div>
+            <div class="row mt-4">
+                <div class="col-md-4">
+                    <img src="./images/serviços/banhos.jpg" alt="" class="d-block w-100 rounded mb-2">
+                    <h3 class="section-title text-colored fs-4">
+                        <i class="bi bi-stars"></i>
+                        Banho & Tosa
+                    </h3>
+                    <p>
+                        Na Meu Pet Mimado você encontra uma equipe treinada e sob constante supervisão dos nossos veterinários. Uma estrutura completa para deixar seu Pet ainda mais bonito e cheiroso.
+                    </p>
+                </div>
+                <div class="col-md-4">
+                    <img src="./images/serviços/clinicavet.jpg" alt="" class="d-block w-100 rounded mb-2">
+                    <h3 class="section-title text-colored fs-4">
+                        <i class="bi bi-clipboard2-heart"></i>
+                        Clínica
+                    </h3>
+                    <p>
+                        Aqui você encontra atendimento médico especializado para seu pet com todo cuidado e carinho, de maneira que a experiência seja o menos traumática possível para o animal. Realizamos exames de laboratório e imagem.
+                    </p>
+                </div>
+                <div class="col-md-4">
+                    <img src="./images/serviços/adestramento.jpg" alt="" class="d-block w-100 rounded mb-2">
+                    <h3 class="section-title text-colored fs-4">
+                        <i class="bi bi-check-circle"></i>
+                        Adestramento
+                    </h3>
+                    <p>
+                        O adestramento de cães é uma ótima forma de educar seu bichinho de estimação, ensinando a ele o lugar certo para fazer suas necessidades, a respeitar suas ordens. Nossos treinadores trabalham com todas as raças. 
+                    </p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="fale-conosco" class="pt-5 pb-5">
+        <div class="container">
+            <div class="row">
+                <h2 class="section-title text-center pb-5">Fale Conosco</h2>
+            </div>
+            <div class="row">
+                <div class="col-md-7 mb-5">
+                    <form>
+                        <div class="mb-3">
+                            <label for="nome" class="form-label fw-bold text-colored">Seu nome</label>
+                            <input type="text" id="nome" name="nome" class="form-control" required placeholder="Digite seu nome">
+                        </div>
+                        <div class="mb-3">
+                            <label for="e-mail" class="form-label fw-bold text-colored">Seu e-mail</label>
+                            <input type="email" id="email" name="email" class="form-control" required>
+                        </div>
+                        <div class="mb-3">
+                            <label for="telefone" class="form-label fw-bold text-colored">Seu telefone (opcional)</label>
+                            <input type="tel" name="telefone" id="telefone" class="form-control">
+                        </div>
+                        <div class="mb-3">
+                            <label for="mensagem" class="form-label fw-bold text-colored">Sua mensagem</label>
+                            <textarea class="form-control" name="mensagem" id="mensagem" required></textarea>
+                        </div>
+                        <button type="submit" class="btn fw-bold">Enviar</button>
+                    </form>
+                </div>
+                <div class="col-md-5">
+                    <div class="row">
+                        <h3 class="section-title fs-4 text-colored">
+                            <i class="bi bi-hand-thumbs-up-fill"></i>
+                            Redes Sociais
+                        </h3>
+                        <ul class="social-links">
+                            <li class="fs-5">
+                                <a href="#">
+                                    <i class="bi bi-facebook text-colored"></i>
+                                </a>
+                            </li>
+                            <li class="fs-5">
+                                <a href="#">
+                                    <i class="bi bi-instagram text-colored"></i>
+                                </a>
+                            </li>
+                            <li class="fs-5 ms-1 me-1">
+                                <a href="#">
+                                    <i class="bi bi-whatsapp text-colored"></i>
+                                </a>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="row mt-4">
+                        <h3 class="section-title fs-4 text-colored">
+                            <i class="bi bi-geo-alt-fill"></i>
+                            Endereço
+                        </h3>
+                        <p>
+                            Rua Happy Dog nº 100, Bairro Passeio - São Paulo/SP
+                        </p>
+                    </div>
+                    <div class="row mt-4">
+                        <h3 class="section-title fs-4 text-colored">
+                            <i class="bi bi-headset"></i>
+                            Teleatendimento
+                        </h3>
+                        <p>
+                            Teleatendimento 24 horas para sua maior comodidade e pronto atendimento.
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+</div>
+
+
+<footer>
+    <div class="container container-flex">
+        <p class="fw-bold">
+            2023 &copy; Pet Shop Meu Pet Mimado - Todos os direitos reservados
+        </p>
+    </div>
+</footer>
+
+
+
+    <script type="text/javascript" src="//code.jquery.com/jquery-1.11.0.min.js"></script>
+    <script type="text/javascript" src="//code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
+    <script src="./pjquery/jquery.mask.min.js"></script>
+    <script src="./pjquery/jquery.validate.min.js"></script>
+    <script src="./pjquery/messages_pt_BR.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"></script>
+
+    <script>
+        $(document).ready(function(){
+
+$('#telefone').mask('(00) 00000-0000', {
+    placeholder:'(___) _______-_______'
+})
+
+$('form').validate({
+    rules: {
+        nome: {
+            required: true
+        },
+        email: {
+            required: true,
+            email: true
+        },
+        telefone: {
+            required: false
+        },
+    },
+    messages: {
+        nome:'Por favor, insira o seu nome'
+    },
+    submitHandler: function(form) {
+        console.log(form)
+    },
+    invalidHandler: function(evento, validador) {
+        let camposIncorretos = validador.numberOfInvalids();
+        if(camposIncorretos) {
+            alert(`Existem ${camposIncorretos} campos incompletos`)
+        }
+    }
+})
+})
+    </script>
+
+</body>
+</html>
